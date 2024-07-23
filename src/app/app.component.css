@@ -1,0 +1,43 @@
+.text {
+  color: #8895a0;
+  text-decoration: none;
+  font-family: sans-serif;
+  justify-content: center;
+  font-weight: 700;
+  display: flex;
+}
+
+.imego {
+  width: 8rem;
+}
+
+.text:hover {
+  color: #058aff;
+  border: solid;
+  border-radius: 1em;
+  background-color: #fbfbfb;
+}
+
+.toxt {
+  color: #666667;
+  text-decoration: none;
+  margin-left: 25px;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.logo {
+  font-size: x-large;
+  font-family: sans-serif;
+  margin-top: 5px;
+  text-align: center;
+  color: rgb(41, 1, 71);
+  font-weight: 900;
+  opacity: 0.8;
+
+}
+
+.sec1 {
+  background-color: #f5f5f9;
+}

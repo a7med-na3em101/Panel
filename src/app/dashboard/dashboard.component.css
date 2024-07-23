@@ -1,0 +1,198 @@
+.imgo {
+  width: 15rem;
+}
+
+.imf {
+  width: 4rem;
+}
+.imego{
+  width: 8rem;
+}
+
+.as {
+
+  background-color: rgb(105 108 255);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+.as:hover {
+  background-color: rgb(208, 22, 255);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  height: 300px;
+  border-left: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.bar {
+  width: 50px;
+  margin: 0 10px;
+  background-color: rgb(93, 0, 255);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.bar-label {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 39px;
+}
+
+.bar-chart1 {
+  display: flex;
+  align-items: flex-end;
+  height: 300px;
+  border-left: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.bar1 {
+  width: 50px;
+  margin: 0 10px;
+  background-color: rgb(212, 0, 255);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.bar-labels1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.bar-label1 {
+  text-align: center;
+  width: 50px;
+}
+
+.circle-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circular-chart {
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #efefef;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke: rgb(212, 0, 255);
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+.percentage {
+  fill: #565757;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+.growth-data {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.growth-data p {
+  margin: 5px 0;
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: 600;
+  color: #565757;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card h5 {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.transaction-card {
+  margin-bottom: 20px;
+}
+
+.transaction-type {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.transaction-description {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #666;
+}
+
+.transaction-amount {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.positive {
+  color: #00eb1f;
+}
+
+.negative {
+  color: #ff001e;
+}

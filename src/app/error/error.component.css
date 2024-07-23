@@ -1,0 +1,13 @@
+/* .err {
+  background-image: url('../assets/photos/217731-P0RB8T-172.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.a {
+  width: -webkit-fill-available;
+  background-color: white;
+  border-radius: 5rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
